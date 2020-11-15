@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">垃圾分类</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_all">显示全部垃圾</string>
+    <string name="action_search">查找</string>
+    <string name="action_insert">新增</string>
+    <string name="action_delete">删除</string>
+    <string name="action_update">修改</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="word">垃圾</string>
+    <string name="meaning">类别</string>
+    <string name="sample">介绍</string>
+    <string name="search_word">搜索的垃圾</string>
+    <string name="search">搜索</string>
+</resources>
