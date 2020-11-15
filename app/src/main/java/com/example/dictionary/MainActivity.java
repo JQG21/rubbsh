@@ -35,14 +35,6 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //新增垃圾
-                InsertDialog();
-            }
-        });
         search = findViewById(R.id.search);
         e = findViewById(R.id.t1);
 

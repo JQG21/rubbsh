@@ -24,27 +24,21 @@
         android:id="@+id/t1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="670dp"
         android:importantForAutofill="no"
-        android:inputType="" />
+        android:inputType=""
+        android:hint="@string/rubbsh"
+        />
     <Button
         android:id="@+id/search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="0dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="670dp"
         android:layout_marginStart="300dp"
         android:text="@string/search"
         />
-    <include layout="@layout/content_main" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:src="@android:drawable/ic_input_add"
-        android:contentDescription="TODO" />
+    <include layout="@layout/content_main"
+        />
 
 </android.support.design.widget.CoordinatorLayout>
